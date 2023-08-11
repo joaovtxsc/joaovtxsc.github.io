@@ -22,7 +22,7 @@ h1 {
     border-radius: 3%;
     font-family: 'Lisu Bosa', serif;
     font-size: 18px;
-    width: 30%;
+    max-width: 30%;
     background: white;
     color: rgb(48, 34, 34);
     animation: flutuacao 5s infinite linear alternate;
