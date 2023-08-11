@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Bungee+Spice&family=Gideon+Roman&family=Italianno&family=Lisu+Bosa:wght@200&family=Schoolbell&display=swap');
+
+body {
+    background-image: url(img/fotomedico.png), url(img/fundoconsultorio.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: -9px;
+    background-size: auto, cover;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    color:antiquewhite;
+    font-size: 25px;
+}
+
+.div1 p {
+    position: relative;
+    left: 1%;
+    border: 2px solid black;
+    border-radius: 3%;
+    font-family: 'Lisu Bosa', serif;
+    font-size: 18px;
+    width: 30%;
+    top: 400px;
+    background: white;
+    animation: flutuacao 5s infinite linear alternate;
+    box-shadow: 0 0 15px rgb(15, 51, 255);
+}
+
+.div2 p {
+    position: relative;
+    left: 35%;
+    border: 2px solid black;
+    border-radius: 3%;
+    top: 190px;
+    font-family: 'Lisu Bosa', serif;
+    font-size: 18px;
+    width: 30%;
+    background: white;
+    color: rgb(48, 34, 34);
+    animation: flutuacao 5s infinite linear alternate;
+    box-shadow: 0 0 15px rgb(15, 51, 255);
+}
+
+.div3 p {
+    position: relative;
+    left: 68%;
+    border: 2px solid black;
+    border-radius: 3%;
+    bottom: 18px;
+    font-family: 'Lisu Bosa', serif;
+    color: rgb(48, 34, 34);
+    font-size: 18px;
+    width: 30%;
+    background: white;
+    animation: flutuacao 5s infinite linear alternate;
+    box-shadow: 0 0 15px rgb(15, 51, 255);
+}
+
+a{
+    text-decoration: none;
+    background: green;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: white;
+    bottom: 30px;
+    font-size: 20px;
+    position: relative;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+    transition: box-shadow 0.3s ease-in-out; 
+    left: 43%;
+}
+a:hover{
+    background: #ffffff;
+    color: green;
+    transform: scale(1.1);
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+    box-shadow: 0 0 15px rgb(15, 255, 47);
+}
+
+@keyframes flutuacao {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+}
