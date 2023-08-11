@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Angkor&family=Bungee+Spice&family=Gideon+Roman&family=Italianno&family=Lisu+Bosa:wght@200&family=Schoolbell&display=swap');
 
 body {
-    background-image: url(fotomedico.png);
+    background-image: url(./fotomedico.png);
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-position-y: -9px;
